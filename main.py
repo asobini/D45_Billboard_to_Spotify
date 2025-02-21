@@ -6,8 +6,8 @@ from urllib.parse import quote
 
 # Configuration constants
 BASE_URL = "https://www.billboard.com/charts/hot-100/"
-CLIENT_ID = "4bc797ed45e34363af44d72bf6788ca2"
-CLIENT_SECRET = "d1940d304b664eb296780dec000cad1d"
+CLIENT_ID = "YOUR SPOTIFY CLIENT_ID" # YOUR SP
+CLIENT_SECRET = "YOUR SPOTIFY CLIENT SECRET"
 REDIRECT_URI = "http://example.com"
 
 # Get target date from user
@@ -51,7 +51,7 @@ sp = spotipy.Spotify(
         redirect_uri=REDIRECT_URI,
         scope="playlist-modify-private",
         show_dialog=True,
-        username="315tmnf5k7oaeihj4dm4mdeacuxu"
+        username="YOUR_SPOTYPY_USERNAME"
     )
 )
 
