@@ -1,0 +1,16 @@
+This Python script allows you to:
+- Scrape Billboard's Hot 100 chart for any given date
+- Authenticate with Spotify using OAuth
+- Create a private Spotify playlist with the top 100 songs from your chosen date
+- Handle missing tracks and alternative versions automatically
+
+Perfect for creating nostalgic playlists or exploring music history!
+
+## ✨ Features
+
+- 📅 Date-specific playlist creation (works for dates back to 1958)
+- 🔒 Secure Spotify authentication flow
+- 🎯 Intelligent track matching algorithm
+- 📈 Progress tracking with real-time updates
+- 🚫 Automatic filtering of non-song metadata
+- ❌ Error handling for missing tracks
